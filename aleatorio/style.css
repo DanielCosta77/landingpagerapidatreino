@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+
+    background-color:  #6CABDD;
+    #1C2C5B
+    background-image: url('/city.png');
+}
+
+header {
+    background-color: #1C2C5B;
+}
+
+.nave {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nave li {
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.nave li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    
+}
+
+.nave li:hover {
+    background-color: #6CABDD;
+    color: #1C2C5B;
+}
+
+.nave li a:hover {
+    color: #1C2C5B;
+}
+
+.container {
+    width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  margin-top: 150px;
+  background-color: #1C2C5B;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container h1{
+    color: #6CABDD;
+    font-size: 30px;
+}
+
+.container p{
+    color: #6CABDD;
+    font-size: 20px;
+}
+
+img {
+    float: left; /* ou right para posicionar a imagem à direita */
+    max-width: 50%; /* ajusta o tamanho máximo da imagem */
+    margin-right: 10px; /* espaço entre a imagem e o texto */
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
